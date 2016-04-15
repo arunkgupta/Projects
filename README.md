@@ -14,15 +14,30 @@ See ways of [contributing](https://github.com/thekarangoel/Projects/blob/master/
 
 You can find implementations of these projects in many other languages by other users in [this repo](https://github.com/thekarangoel/Projects-Solutions).
 
-## Donations
+## Credits
 
-If *Projects* has helped you in any way, and you'd like to help the developer, please consider donating.
+This repo was compiled by [Karan Goel](http://twitter.com/karangoel).
 
-**- Gittip: [https://www.gittip.com/karan/](https://www.gittip.com/karan/)**
+Problems are motivated by the ones shared at:
 
-**- Flattr: [https://flattr.com/profile/thekarangoel](https://flattr.com/profile/thekarangoel)**
+* [Martyr2’s Mega Project List](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)
+* [Rosetta Code](http://rosettacode.org/)
 
-================================
+## Table of Contents
+
+- [Numbers](https://github.com/karan/Projects#numbers)
+- [Classic Algorithms](https://github.com/karan/Projects#classic-algorithms)
+- [Graph](https://github.com/karan/Projects#graph)
+- [Data Structures](https://github.com/karan/Projects#data-structures)
+- [Text](https://github.com/karan/Projects#text)
+- [Networking](https://github.com/karan/Projects#networking)
+- [Classes](https://github.com/karan/Projects#classes)
+- [Threading](https://github.com/karan/Projects#threading)
+- [Web](https://github.com/karan/Projects#web)
+- [Files](https://github.com/karan/Projects#files)
+- [Databases](https://github.com/karan/Projects#databases)
+- [Graphics and Multimedia](https://github.com/karan/Projects#graphics-and-multimedia)
+- [Security](https://github.com/karan/Projects#security)
 
 Numbers
 ---------
@@ -93,6 +108,9 @@ Graph
 **Connected Graph** - Create a program which takes a graph as an input and outputs whether every node is connected or not.
 
 **Dijkstra’s Algorithm** - Create a program that finds the shortest path through a graph using its edges.
+
+**Minimum Spanning Tree** - Create a program which takes a connected, undirected graph with weights and outputs the minimum spanning tree of the graph i.e., a
+subgraph that is a tree, contains all the vertices, and the sum of its weights is the least possible.
 
 
 Data Structures
@@ -243,7 +261,7 @@ Graphics and Multimedia
 
 **Stream Video from Online** - Try to create your own online streaming video player.
 
-**Mp3 Player** - A simple program for playing your favorite music files. Add features you though are missing from your favorite music player.
+**Mp3 Player** - A simple program for playing your favorite music files. Add features you think are missing from your favorite music player.
 
 **Watermarking Application** - Have some pictures you want copyright protected? Add your own logo or text lightly across the background so that no one can simply steal your graphics off your site. Make a program that will add this watermark to the picture. *Optional: Use threading to process multiple images simultaneously.*
 
@@ -256,10 +274,3 @@ Security
 -------------
 
 **Caesar cipher** - Implement a Caesar cipher, both encoding and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC". This simple "monoalphabetic substitution cipher" provides almost no security, because an attacker who has the encoded message can either use frequency analysis to guess the key, or just try all 25 keys.
-
-
-Sources
-=======
-
-* [Martyr2’s Mega Project List](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)
-* [Rosetta Code](http://rosettacode.org/)
